@@ -1,0 +1,48 @@
+Analysis and Evaluation of Bluetooth Mesh
+
+-Introduction
+As we focus in this course in Next Generation Networks, our group would like to focus on a rising technology: Bluetooth Mesh Networking. The official Bluetooth webpage states:
+
+	"Bluetooth mesh networking enables many-to-many (m:m) device 		communications and is optimized for creating large-scale device networks. 		It is ideally suited for building automation, sensor network, asset 		tracking, and other IoT solutions that require tens, hundreds or thousands 	of devices to communicate with one another."
+
+	(https://www.bluetooth.com/learn-about-bluetooth/bluetooth-	technology/topology-options/le-mesh/mesh-faq/)
+
+Not only it is related to our NGN course but also represents a fundamental standard in the Internet of Things (IoT) world.
+
+-ANALYSIS
+
+Our project aims at understanding how to Bluetooth standard works combined with a meshed used of the netowork as well as creating an application to show and test the actual capabilities of the technology. Therefore, the work does not only focus on presenting the topic but also on applying at it our own ideas. In our case it will be a simple chat environment that enable the communication between two devices and their bridge. Finally an evaluation in form of a network analysis will enlight the hidden workflow of the standard.
+
+-SCENARIO
+
+As described in the previous paragraph we will create our own environment. Three devices constellate the meshed network. On the edges two smartphones/laptops/tablets that will send and receive signals from the bridge located in between of these two, represented by a microcontroller like Arduino (with BLE module) or Raspberry Pi.
+
+	Smartphone 1 ------- Arduino/Rasp Pi ------- Smartphone 2
+
+On the application level we will develope a chat between the two Smartphones. The bridge will regulate and pass the messages to the receiver, creating a meshed service via Bluetooth. This scenario can be also extended to more devices.
+
+-WORKFLOW
+
+Our initial intention is too study how Bluetooth Mesh works and how to establish a simple network first. This will require a study period followed by a home-test with devices like smartphones and laptops. We'll probably deliver this part all three of us individually, due to the COVID chrysis.
+
+Secondly we will apply our new knowledge for the configuration of the bridge (Arduino or Raspberry) and the creation of the meshed network. This part can be completed after receving or purchasing the hardware.
+
+Meanwhile the chat application will take shape and adapted to the Bluetooth Mesh requirment. In this part we still have to define the environement we are going to use and the related servers, protocols and coding language.
+
+Finally, once the concepts shows its first results, we will be able to perform and netowork analysis, showing how the hops between the devides work and the role of the central bridge.
+
+-TASKS DIVISION
+
+As we are in the middle of Coronavirus chrysis, our workplan remains mostly uncertain. Below we will describe a possible and meaningful scenario that involves the use of hardware and chance of meeting all together to perform analysis and evaluation.
+
+1) Study and Analysis of Bluetooth Mesh - All together, everyone from home
+
+2) Configuration and creation of the Bluetooth Mesh Network of the single devices - Alessandro
+
+3) Chat Application - Theodor
+
+4) Network Analysis - Samuel
+
+Notice that it is just an initial proposal and that we will probably cooperate on the different tasks to help each other and learn as much as possible.
+
+QUESTION RASPBERRY BLUETOOTH + NUMBER OF DEVICES
