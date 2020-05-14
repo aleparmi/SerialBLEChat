@@ -18,3 +18,7 @@ In order to open a serial terminal for the bluetooth communication between two d
 ## Broker Git Repo
 
 Check this: https://github.com/eclipse/mosquitto.rsmb
+
+## Gateway (+ not completed Client Git repo)
+
+Check this: https://github.com/eclipse/paho.mqtt-sn.embedded-c
