@@ -14,3 +14,7 @@ In order to open a serial terminal for the bluetooth communication between two d
 5) Lauch the app and connect to the device from there
 6) Launch the script making sure you install this library: https://pypi.org/project/pyserial/ (doc: https://pyserial.readthedocs.io/en/latest/)
 7) If this setup does not work you probably have to install a software that comes with your bluetooth hardware and setup the COM ports from there
+
+## Broker Git Repo
+
+Check this: https://github.com/eclipse/mosquitto.rsmb
