@@ -22,3 +22,7 @@ Check this: https://github.com/eclipse/mosquitto.rsmb
 ## Gateway (+ not completed Client Git repo)
 
 Check this: https://github.com/eclipse/paho.mqtt-sn.embedded-c
+
+## Pyserial Doc
+
+https://pyserial.readthedocs.io/en/latest/pyserial_api.html
