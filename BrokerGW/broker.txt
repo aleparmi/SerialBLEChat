@@ -1,0 +1,13 @@
+# will show you packets being sent and received
+trace_output protocol						
+
+# normal MQTT listener
+#listener 1883 INADDR_ANY	
+		
+# MQTT-S listener
+listener 1884 INADDR_ANY mqtts					
+	# optional multicast groups to listen on
+	multicast_groups 224.0.18.83	
+	# optional advertise packets parameters: address, interval, gateway_id			
+	advertise 225.0.18.83:1884 30 33			
+
