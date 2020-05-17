@@ -258,7 +258,7 @@ if __name__ == "__main__":
 	"""
 
 
-	aclient = Client("linh", port=1884)
+	aclient = Client("wtf", host="localhost", port=1884)
 	aclient.registerCallback(Callback())
 	aclient.connect()
 
