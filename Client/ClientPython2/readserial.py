@@ -65,15 +65,17 @@ if __name__ == '__main__':
 		"""
 		x = threading.Thread(target=input_func)
 		x.start()
+
+		print "IMPORTANT: You can send messages from this mqttsn client. They have to be surrounded by \" \""
 		
 		while True:
 			line = ser.readline()
 			#split line as it contains V,temp
-			list = line.split(",")
+			#list = line.split(",")
 			#second list element is temp
-			temp = list[1].rstrip()
+			#temp = list[1].rstrip()
 			print line
-			aclient.publish("nodex", temp, qos=2)
+			aclient.publish("nodex", line, qos=2)
 			pass
 		
 
