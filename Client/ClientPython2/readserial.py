@@ -18,8 +18,8 @@ def input_func():
 
 if __name__ == '__main__':
 
-	serialdev = '/dev/rfcomm0'
-	broker = "localhost"
+	serialdev = 'COM8'
+	broker = "192.168.178.84"
 	port = 1884
 
 	try:
@@ -37,32 +37,17 @@ if __name__ == '__main__':
 		ser.reset_input_buffer()
 		#create an mqtt client
 		mypid = os.getpid()
-		#client_uniq = "arduino_pub_"+str(mypid)
-		#mqttc = mosquitto.Mosquitto(client_uniq)
 		client_uniq = "chat_pub_"+str(mypid)
-		aclient = Client(client_uniq, port=1884)
+		aclient = Client(client_uniq, broker, port=1884)
 
 		#attach MQTT callbacks
-		#mqttc.on_connect = on_connect
-		#mqttc.on_publish = on_publish
 		aclient.registerCallback(Callback())
 		
 		#connect to broker
-		#mqttc.connect(broker, port, 60, True)
 		aclient.connect()
 		
 		#remain connected to broker
 		#read data from serial and publish
-		"""
-		while mqttc.loop() == 0:
-			line = ser.readline()
-			#split line as it contains V,temp
-			list = line.split(",")
-			#second list element is temp
-			temp = list[1].rstrip()
-			mqttc.publish("arduino/temp", temp)
-			pass
-		"""
 		x = threading.Thread(target=input_func)
 		x.start()
 

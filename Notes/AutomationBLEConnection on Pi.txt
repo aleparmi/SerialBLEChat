@@ -1,0 +1,7 @@
+Automation BLE Connection on Raspberry Pi:
+
+-activate Bluetoothctl with agent/default-agent/scan on/pair/connect/trust etc.
+-sudo rfcomm watch hci0
+-start script
+
+see: https://www.youtube.com/watch?v=CB1E4Ir3AV4 (end of the video)
