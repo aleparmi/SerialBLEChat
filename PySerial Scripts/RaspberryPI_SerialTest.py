@@ -17,7 +17,8 @@ def main():
         quit()
     
     print('Connected to Serial port.')
-    
+    print "IMPORTANT: You can send messages from this mqttsn client. They have to be surrounded by \" \""
+
     x = threading.Thread(target=input_func)
     x.start()
 
