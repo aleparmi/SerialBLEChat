@@ -2,8 +2,6 @@
 
 from MQTTSNclient import *
 import os
-from time import sleep
-
 
 if __name__ == '__main__':
 
@@ -23,13 +21,12 @@ if __name__ == '__main__':
 		aclient.connect()
 		
 		#subscribe to topic
-		#rc, topic = aclient.subscribe("nodex")
+		rc, topic = aclient.subscribe("nodex")
 		
 		while True:
 			print "\n"
-			sleep(0.2)
 			line = raw_input("Message: ")
-			aclient.publish("nodex", line, qos=2)
+			aclient.publish(topic, line, qos=2)
 			pass
 	
 	#handle app closure
