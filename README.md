@@ -30,3 +30,5 @@ https://pyserial.readthedocs.io/en/latest/pyserial_api.html
 ## Configure RaspberryPi for serial ports
 
 https://www.youtube.com/watch?v=sY06F_sPef4&feature=youtu.be
+
+To bind multiple serial ports, simply insert sudo rfcomm watch /dev/rfcommX where X is (0, 1, 2....)
