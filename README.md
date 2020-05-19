@@ -26,3 +26,7 @@ Check this: https://github.com/eclipse/paho.mqtt-sn.embedded-c
 ## Pyserial Doc
 
 https://pyserial.readthedocs.io/en/latest/pyserial_api.html
+
+## Configure RaspberryPi for serial ports
+
+https://www.youtube.com/watch?v=sY06F_sPef4&feature=youtu.be
