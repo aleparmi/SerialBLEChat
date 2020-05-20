@@ -11,7 +11,6 @@ if __name__ == '__main__':
 	try:
 		#create an mqtt client
 		mypid = os.getpid()
-		print "MyPid: ", mypid
 		client_uniq = "chat_pub_"+str(mypid)
 		aclient = Client(client_uniq, broker, port=1884)
 
@@ -26,7 +25,6 @@ if __name__ == '__main__':
 		
 		#subscribe to topic
 		rc, topic = aclient.subscribe("raspberry")
-		print "Rc: ", rc
 		
 		while True:
 			print "\n"

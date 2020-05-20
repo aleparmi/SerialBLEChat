@@ -1,10 +1,4 @@
 #!/usr/bin/python
-#
-#simple app to read string from serial port
-#and publish via MQTT
-#
-#Andy Piper http://andypiper.co.uk
-#2011/09/15
 
 import serial
 from MQTTSNclient import *
@@ -19,7 +13,7 @@ def input_func():
 if __name__ == '__main__':
 
 	serialdev = 'COM8'
-	broker = "192.168.178.84"
+	broker = "127.0.0.1"
 	port = 1884
 
 	try:
@@ -35,7 +29,7 @@ if __name__ == '__main__':
 
 	try:
 		ser.reset_input_buffer()
-		#create an mqtt client
+		#create an mqttsn client
 		mypid = os.getpid()
 		client_uniq = "chat_pub_"+str(mypid)
 		aclient = Client(client_uniq, broker, port=1884)
@@ -45,6 +39,9 @@ if __name__ == '__main__':
 		
 		#connect to broker
 		aclient.connect()
+		
+		#subscribe to topic
+		rec, topic_id = aclient.subscribe("SerialMessageviaMQTTSN")
 		
 		#remain connected to broker
 		#read data from serial and publish
@@ -60,7 +57,6 @@ if __name__ == '__main__':
 			#second list element is temp
 			#temp = list[1].rstrip()
 			print line
-			aclient.publish("nodex", line, qos=2)
 			pass
 		
 
@@ -71,7 +67,9 @@ if __name__ == '__main__':
 	#handle app closure
 	except (KeyboardInterrupt):
 		print "Interrupt received"
+		aclient.disconnect()
 		cleanup()
 	except (RuntimeError):
 		print "uh-oh! time to die"
+		aclient.disconnect()
 		cleanup()
