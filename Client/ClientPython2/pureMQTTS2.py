@@ -5,12 +5,13 @@ import os
 
 if __name__ == '__main__':
 
-	broker = "192.168.178.84"
+	broker = "127.0.0.1"
 	port = 1884
 
 	try:
 		#create an mqtt client
 		mypid = os.getpid()
+		print "MyPid: ", mypid
 		client_uniq = "chat_pub_"+str(mypid)
 		aclient = Client(client_uniq, broker, port=1884)
 
@@ -20,23 +21,25 @@ if __name__ == '__main__':
 		#connect to broker
 		aclient.connect()
 		
+		#register topic
+		topic_id = aclient.register("raspberry")
+		
 		#subscribe to topic
-		rc, topic = aclient.subscribe("nodex")
+		rc, topic = aclient.subscribe("pcWindows")
+		print "Rc: ", rc
 		
 		while True:
 			print "\n"
 			line = raw_input("Message: ")
-			aclient.publish(topic, line, qos=2)
+			aclient.publish(topic_id, line, qos=2)
 			pass
 	
 	#handle app closure
-	except (KeyboardInterrupt):
-		print "Interrupt received"
-		aclient.unsubscribe("nodex")
-		aclient.disconnect()
-		cleanup()
-	except (RuntimeError):
+	except RuntimeError:
 		print "uh-oh! time to die"
-		aclient.unsubscribe("nodex")
+		aclient.unsubscribe("pcWindows")
+		aclient.disconnect() 	
+	except KeyboardInterrupt:
+		aclient.unsubscribe("pcWindows")
 		aclient.disconnect()
-		cleanup()
+		print "Interrupt received"
