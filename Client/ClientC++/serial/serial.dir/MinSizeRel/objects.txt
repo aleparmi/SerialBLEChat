@@ -1,3 +1,0 @@
-C:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/serial.dir/MinSizeRel/serial.obj
-C:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/serial.dir/MinSizeRel/win.obj
-C:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/serial.dir/MinSizeRel/list_ports_win.obj

@@ -1,3 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(453,5): warning MSB8004: la directory Output non termina con una barra finale. Nell'istanza della compilazione verrà aggiunta la barra poiché è necessaria per consentire la corretta valutazione della directory Output.
-  serial_example.cc
-  serial_example.vcxproj -> C:\Users\Andrea\Google Drive\Hochschule\NGN\Project\Serial BLE Chat\Client\ClientC++\serial\.\devel\lib\serial\Release\serial_example.exe

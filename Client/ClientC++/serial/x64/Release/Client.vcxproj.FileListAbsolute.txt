@@ -1,1 +1,0 @@
-C:\Users\Andrea\Google Drive\Hochschule\NGN\Project\Serial BLE Chat\Client\ClientC++\serial\x64\Release\Client.exe
