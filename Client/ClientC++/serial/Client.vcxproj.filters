@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\MQTTSNConnectClient.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MQTTSNConnectServer.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MQTTSNDeserializePublish.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MQTTSNPacket.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MQTTSNSearchClient.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MQTTSNSearchServer.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MQTTSNSerializePublish.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MQTTSNSubscribeClient.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MQTTSNSubscribeServer.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MQTTSNUnsubscribeClient.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MQTTSNUnsubscribeServer.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\MQTTSNConnect.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\MQTTSNPacket.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\MQTTSNPublish.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\MQTTSNSearch.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\MQTTSNSubscribe.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\MQTTSNUnsubscribe.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\StackTrace.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

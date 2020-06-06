@@ -1,0 +1,19 @@
+{
+  "name": "BLEMQTTSN",
+  "version": "1.0.0",
+  "description": "Interface between BLE and MQTTSN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "mqttsn-packet": "0.0.2",
+    "node-bluetooth": "^1.2.6",
+    "object-sizeof": "^1.6.0",
+    "prettyjson": "^1.2.1"
+  }
+}

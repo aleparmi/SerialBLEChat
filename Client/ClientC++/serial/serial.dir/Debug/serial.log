@@ -1,0 +1,48 @@
+﻿  list_ports_win.cc
+  win.cc
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2395,23): warning C4244: 'argomento': conversione da 'const wchar_t' a 'const _Elem'. Possibile perdita di dati.
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2406): message : vedere il riferimento all'istanza 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2406): message : vedere il riferimento all'istanza 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2386): message : vedere il riferimento all'istanza 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2386): message : vedere il riferimento all'istanza 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Users\Andrea\Google Drive\Hochschule\NGN\Project\Project_local\serial\src\impl\win.cc(369): message : vedere il riferimento all'istanza 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\Andrea\Google Drive\Hochschule\NGN\Project\Project_local\serial\src\impl\win.cc(369): message : vedere il riferimento all'istanza 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  serial.cc
+C:\Users\Andrea\Google Drive\Hochschule\NGN\Project\Project_local\serial\src\serial.cc(140,32): warning C4101: 'e': variabile locale senza riferimenti
+C:\Users\Andrea\Google Drive\Hochschule\NGN\Project\Project_local\serial\src\serial.cc(159,32): warning C4101: 'e': variabile locale senza riferimenti
+  Generazione del codice in corso...
+  Auto build dll exports
+     Creazione della libreria C:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/devel/lib/serial.lib e dell'oggetto C:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/devel/lib/serial.exp
+  serial.vcxproj -> C:\Users\Andrea\Google Drive\Hochschule\NGN\Project\Project_local\serial\devel\bin\serial.dll

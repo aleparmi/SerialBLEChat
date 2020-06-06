@@ -42,7 +42,7 @@ if __name__ == '__main__':
 		while True:
 			line = ser.readline()
 			print "Message received: ", line
-			line = "Message ACK via MQTTSN" + line
+			print "\n"
 			#split line as it contains V,temp
 			#list = line.split(",")
 			#second list element is temp
@@ -54,8 +54,6 @@ if __name__ == '__main__':
 	except (KeyboardInterrupt):
 		print "Interrupt received"
 		aclient.disconnect()
-		cleanup()
 	except (RuntimeError):
 		print "uh-oh! time to die"
 		aclient.disconnect()
-		cleanup()

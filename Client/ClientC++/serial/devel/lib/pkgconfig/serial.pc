@@ -1,0 +1,8 @@
+prefix=C:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/devel
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -IC:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/include
+Libs: -L${prefix}/lib -lserial
+Requires: 

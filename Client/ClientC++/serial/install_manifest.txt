@@ -1,0 +1,14 @@
+C:/Program Files (x86)/serial/_setup_util.py
+C:/Program Files (x86)/serial/_setup_util.exe
+C:/Program Files (x86)/serial/env.bat
+C:/Program Files (x86)/serial/setup.bat
+C:/Program Files (x86)/serial/local_setup.bat
+C:/Program Files (x86)/serial/.rosinstall
+C:/Program Files (x86)/serial/lib/pkgconfig/serial.pc
+C:/Program Files (x86)/serial/share/serial/cmake/serialConfig.cmake
+C:/Program Files (x86)/serial/share/serial/cmake/serialConfig-version.cmake
+C:/Program Files (x86)/serial/share/serial/package.xml
+C:/Program Files (x86)/serial/lib/serial.lib
+C:/Program Files (x86)/serial/bin/serial.dll
+C:/Program Files (x86)/serial/include/serial/serial.h
+C:/Program Files (x86)/serial/include/serial/v8stdint.h

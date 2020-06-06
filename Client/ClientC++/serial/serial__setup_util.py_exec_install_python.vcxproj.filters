@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Andrea\Google Drive\Hochschule\NGN\Project\Project_local\serial\catkin_generated\add_python_executable\serial__setup_util.py_exec_install_python\_setup_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrea\Google Drive\Hochschule\NGN\Project\Project_local\serial\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{669CFFC7-1B9F-35DF-A617-F5417104A72E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

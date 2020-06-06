@@ -1,0 +1,15 @@
+﻿  -- Install configuration: "Release"
+  -- Up-to-date: C:/Program Files (x86)/serial/_setup_util.py
+  -- Up-to-date: C:/Program Files (x86)/serial/_setup_util.exe
+  -- Up-to-date: C:/Program Files (x86)/serial/env.bat
+  -- Up-to-date: C:/Program Files (x86)/serial/setup.bat
+  -- Up-to-date: C:/Program Files (x86)/serial/local_setup.bat
+  -- Up-to-date: C:/Program Files (x86)/serial/.rosinstall
+  -- Up-to-date: C:/Program Files (x86)/serial/lib/pkgconfig/serial.pc
+  -- Up-to-date: C:/Program Files (x86)/serial/share/serial/cmake/serialConfig.cmake
+  -- Up-to-date: C:/Program Files (x86)/serial/share/serial/cmake/serialConfig-version.cmake
+  -- Up-to-date: C:/Program Files (x86)/serial/share/serial/package.xml
+  -- Installing: C:/Program Files (x86)/serial/lib/serial.lib
+  -- Installing: C:/Program Files (x86)/serial/bin/serial.dll
+  -- Installing: C:/Program Files (x86)/serial/include/serial/serial.h
+  -- Up-to-date: C:/Program Files (x86)/serial/include/serial/v8stdint.h

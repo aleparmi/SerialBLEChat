@@ -56,6 +56,7 @@ if __name__ == '__main__':
 			#list = line.split(",")
 			#second list element is temp
 			#temp = list[1].rstrip()
+			line = "Message ACK via MQTTSN: " + line + "\n"
 			print line
 			pass
 		
@@ -68,8 +69,6 @@ if __name__ == '__main__':
 	except (KeyboardInterrupt):
 		print "Interrupt received"
 		aclient.disconnect()
-		cleanup()
 	except (RuntimeError):
 		print "uh-oh! time to die"
 		aclient.disconnect()
-		cleanup()

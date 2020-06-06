@@ -1,0 +1,10 @@
+^C:\USERS\ANDREA\GOOGLE DRIVE\HOCHSCHULE\NGN\PROJECT\PROJECT_LOCAL\SERIAL\CMAKEFILES\96BF0F354B5DC1FF08BD1640FEF05F00\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial" "-BC:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/serial.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

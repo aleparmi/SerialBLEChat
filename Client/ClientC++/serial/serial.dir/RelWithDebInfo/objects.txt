@@ -1,0 +1,3 @@
+C:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/serial.dir/RelWithDebInfo/serial.obj
+C:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/serial.dir/RelWithDebInfo/win.obj
+C:/Users/Andrea/Google Drive/Hochschule/NGN/Project/Project_local/serial/serial.dir/RelWithDebInfo/list_ports_win.obj

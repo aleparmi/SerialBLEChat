@@ -1,0 +1,7 @@
+﻿  list_ports_win.cc
+src\impl\list_ports\list_ports_win.cc(10,10): fatal error C1083: Non è possibile aprire il file inclusione: 'serial/serial.h': No such file or directory
+  win.cc
+src\impl\win.cc(7,10): fatal error C1083: Non è possibile aprire il file inclusione: 'serial/impl/win.h': No such file or directory
+  serial.cc
+src\serial.cc(12,10): fatal error C1083: Non è possibile aprire il file inclusione: 'serial/serial.h': No such file or directory
+  Generazione del codice in corso...
