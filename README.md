@@ -1,5 +1,17 @@
 # SerialBLEChat
+
 Repository for NGN Project
+
+## Establish BLE Serial Chat over MQTT-SN
+
+1) Raspberry: Start the Broker in /SerialBLEChat/BrokerGW --> ./broker_mqtts broker.txt
+2) Raspberry: Start the Python2 Client in /SerialBLEChat/Client/ClientPython2 --> python Client_local.py
+3) PC: Open Serial Port on PC --> sudo rfcomm watch rfcomm0
+4) Raspberry: Start the Bluetooth<-->Broker Forwarder in /SerialBLEChat/BLEMQTTSN --> node index.js
+5) PC: Start the C++ Client in /SerialBLEChat/Client/ClientC++/serial --> sudo ./main
+
+
+### Configure Serial Port
 
 In order to open a serial terminal for the bluetooth communication between two devices (Windows - Android), follow the following steps:
 
