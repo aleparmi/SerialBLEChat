@@ -8,7 +8,7 @@ Repository for NGN Project
 2) Raspberry: Start the Python2 Client in /SerialBLEChat/Client/ClientPython2 --> python Client_local.py
 3) PC: Open Serial Port on PC --> sudo rfcomm watch rfcomm0
 4) Raspberry: Start the Bluetooth<-->Broker Forwarder in /SerialBLEChat/BLEMQTTSN --> node index.js
-5) PC: Start the C++ Client in /SerialBLEChat/Client/ClientC++/serial --> sudo ./main
+5) PC: Start the C++ Client in /SerialBLEChat/Client/ClientC++/serial/build --> sudo ./main
 
 
 ### Configure Serial Port
